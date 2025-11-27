@@ -1,3 +1,25 @@
+# --- User Keys (작성하신 부분) ---
 /ssh-key-2025-11-25.key
 /ssh-key-2025-11-25.key.pub
 /ssh.sh
+*.key
+*.pub
+*.pem
+
+# --- Python 필수 ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# --- OS 및 에디터 ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- 데이터 (용량 큼) ---
+data/
+*.csv
+*.pth
+*.pt
