@@ -1,10 +1,8 @@
-# --- User Keys (작성하신 부분) ---
-/ssh-key-2025-11-25.key
-/ssh-key-2025-11-25.key.pub
-/ssh.sh
+# --- User Keys ---
 *.key
 *.pub
 *.pem
+/development
 
 # --- Python 필수 ---
 __pycache__/
